@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .ul {
+    width: 50%;
+    margin-left: auto;
+  }
+.inline-block {
+    list-style: none;
+    font-family: "poppins", "sans-serif";
+    font-weight: 600px;
+    font-size: 24px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+    display: inline-block;
+    padding: 0px 20px;
+}
+.inline-block:hover{
+    color:maroon;
+}
+h1 {
+    width: auto;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 30px;
+}
+
+h4 {
+ width: auto;
+margin: 0 auto;
+background-color: black;
+color: white;
+text-align: left;
+padding: 30px;
+}
+
+.heroimage {
+     height: 600px;
+     padding: 25px;
+     background-color: black;
+}
+.chibbi {
+ background-color: transparent;
+}
+.button {
+    display: inline-block;
+    font-weight: 500px;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    background-image:linear-gradient(to top, #464A4E, #000000);
+    border: none;
+    border-radius: 100px;
+    padding: .3em 1.2em;
+    margin:5px;
+    text-align: center;
+    background-size: 200% 100%; 
+    font-size: 20px;
+    cursor: pointer;
+    align-items: flex-start;
+}
+  
+button:hover{
+    color: white;
+    background-image: linear-gradient(to left, #65060D, #981724);
+    background-position: -100% 100%;
+  }
+
+
+footer {
+    background-color: black;
+    padding: 30px;
+}
+
+h3 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+p {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.footerIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
